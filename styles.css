@@ -21,6 +21,7 @@
     color: aliceblue;
     font-weight: 400;
     font-size: medium;
+    border-radius: 10%;
 
 }
 
@@ -28,9 +29,6 @@
     display: flex;
     justify-content: center;
     
-}
-
-.column{
 }
 
 #mainContent{
