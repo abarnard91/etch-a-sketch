@@ -1,0 +1,109 @@
+/*styles.css*/
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+}
+/*body div{
+    border: solid black 2px;
+}*/
+
+#header{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    height: 15vh;
+}
+.button{
+    height:62px;
+    width:125px;
+    background-color: #cc0000;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: medium;
+
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.column{
+}
+
+#mainContent{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#etchASketchBorder{
+    display: flex;
+    flex-direction: row;
+    background-color: #cc0000;
+    height: 650px;
+    width: 950px;
+    justify-content: center;
+    border-radius: 2%; 
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+}
+
+.border{
+    display: flex;
+    align-items: end;
+    background-color: #cc0000;
+    justify-content: right;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc0000;
+}
+
+#screen{
+    height: 500px;
+    width: 500px;
+    background-color: darkgrey;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{background-color: darkgrey;
+     flex-grow: 1;
+     
+
+}
+
+.wheel{
+    height: 85px;
+    width: 85px;
+    background-color: #858484;
+    border-radius: 50%;
+    border: solid black 2px;
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 40px;
+    box-shadow: 5px 4px;
+}
+
+
+
+#footer{
+    display: flex;
+    height: 12vh;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
